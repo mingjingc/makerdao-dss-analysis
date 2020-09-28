@@ -1,3 +1,11 @@
+# MakerDao
+MakerDao是一个去中心化的金融系统，主要提供稳定币Dai，Dai的稳定由已发行的Token质押作为保证，比如ETH、USDT等。Maker系统为了方便，加入系统的资产首先都要转换成一比一的代币，比如ETH转换成WETh，WETH作为资产抵押。每个人都可以用自己的手中的资产抵押借Dai，借贷率拒绝于手中资产类型的稳定性，资产的稳定性越高，借到的Dai越多，反之越少。这类型银行房产抵押贷款，你的房子价值越稳定，可以借到的款越多。若资产发生暴跌，为了保证Dai的稳定性，会触发资产清算，将资产拍卖抵债（回购的Dai会被销毁)，还要扣除手续费（目前为13%)，完成抵债后若还有资产剩余，则退还给借贷者。当然也可能发生资不抵债的情况，这时系统归还剩余的资产，保证Dai价格的稳定性。若系统没有Dai归还所剩余的债，就会启动MKR币拍卖，MKR是治理者拥有的一种投票的币。拍卖的MKR由系统增发。系统允许良好时，拍卖Dai回购MKR进行销毁，保证MKR的稳定性。
+由此可见，Dai不是绝对与美元一比一锚定，仍然有贬值风险，不过只要控制资产的抵押率在安全范围内，Dai就是稳定的。这让我想到黄金，其实我们的纸币也不会绝对稳定，如果黄金价格波动过大，超过预期范围，也会贬值，无论是美元还是人民币。纸币必须依附于等价值的实物，这和Dai很相似。
+
+我没学过金融，断断续续理解MakerDao，不过还是感觉专业知识不足，若理解有误，请多多指教。希望有金融领域知识的同学一起分析这个有趣的项目。
+
+
+
 # Multi Collateral Dai
 [![Build Status](https://travis-ci.com/makerdao/dss.svg?branch=master)](https://travis-ci.com/makerdao/dss)
 [![codecov](https://codecov.io/gh/makerdao/dss/branch/master/graph/badge.svg)](https://codecov.io/gh/makerdao/dss)

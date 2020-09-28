@@ -1,0 +1,7 @@
+{
+    "projectName": "DssMaster",
+    "namespace": "DssMaster.Contracts",
+    "lang": 0,
+    "autoCodeGen": true,
+    "projectPath": "../"
+}
